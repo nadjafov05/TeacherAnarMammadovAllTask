@@ -1,5 +1,5 @@
 public class NummbersInMoth {
-    public static String mothNumbers(int numberMt) {
+    public static void mothNumbers(int numberMt) {
         switch (numberMt) {
             case 1:
                 System.out.println("Winter Moth: January!");
@@ -38,8 +38,8 @@ public class NummbersInMoth {
                 System.out.println("Winter Moth: December!");
                 break;
             default:
-                System.exit(0);
+                System.out.println("sehv daxil edildi: ");
+
         }
-        return "hecne daxil edilmedi...";
     }
 }
